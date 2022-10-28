@@ -1,0 +1,35 @@
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-color: black;
+    padding: 15px 0;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar-brand{
+    color: white;
+}
+
+.header .nav-link{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    margin-left: 30px;
+    transition: all 0.5s;
+}
+
+.header .nav-link:hover{
+    color: white;
+}
+
+.header .active{
+    color: white;
+}
