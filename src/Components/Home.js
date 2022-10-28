@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import Card from "./Card";
 import Carousel from "./Carousel";
-import Content from "./Content";
+import Footer from "./Footer";
 import Header from "./Header";
 import "./Home.css";
 
@@ -10,7 +11,23 @@ export default class Home extends Component {
       <div>
         <Header />
         <Carousel />
-        <Content />
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <Card />
+            </div>
+            <div className="col">
+              <Card />
+            </div>
+            <div className="col">
+              <Card />
+            </div>
+            <div className="col">
+              <Card />
+            </div>
+          </div>
+        </div>
+        <Footer />
       </div>
     );
   }

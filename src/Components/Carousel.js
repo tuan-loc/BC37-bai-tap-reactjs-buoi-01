@@ -7,11 +7,12 @@ export default class Carousel extends Component {
       <div className="carousel">
         <div className="container">
           <div className="carousel-content">
-            <h1>A Warm Welcome!</h1>
+            <h1 className="carousel-title">A Warm Welcome!</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              eius, a expedita quas voluptas rerum corrupti debitis explicabo
-              obcaecati commodi.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+              est id blanditiis, cupiditate porro minus praesentium magni ex cum
+              quas ipsa mollitia velit, at laudantium fugiat cumque. Eaque,
+              nesciunt illum?
             </p>
             <button className="call-to-action">Call to action!</button>
           </div>
